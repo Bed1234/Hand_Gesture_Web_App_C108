@@ -68,18 +68,18 @@ function gotResult(error,results) {
             document.getElementById("update_emoji").innerHTML = "&#9757;";
         }
         if(results[1].label=="Down"){
-            document.getElementById("update_emoji2").innerHTML = "&#9757;";
+            document.getElementById("update_emoji").innerHTML = "&#9757;";
         }
 
         if(results[1].label=="Victory"){
-            document.getElementById("update_emoji2").innerHTML = "&#9996;";
+            document.getElementById("update_emoji").innerHTML = "&#9996;";
         }
         if(results[1].label=="Thumbs Up,Like"){
-            document.getElementById("update_emoji2").innerHTML = "&#128077;";
+            document.getElementById("update_emoji").innerHTML = "&#128077;";
 
         }
         if(results[1].label=="Thumbs Down,Disike"){
-            document.getElementById("update_emoji2").innerHTML = "&#128078;";
+            document.getElementById("update_emoji").innerHTML = "&#128078;";
         }
     }
 }
